@@ -1,1 +1,3 @@
 Obs: home runs, cadastro page allows filling the areas, but sending info generates errors that respective tables (to add or list funcionario) dont exist.
+--> Solved (it was solved by doing $python manage.py makemigrations, which created model Funcionario, then $python manage.py migrate)
+makemigrations -> converts code to sql instructions; migrate -> applies sql instructions to db 
